@@ -14,6 +14,14 @@
   --lion: repeat(auto-fit, minmax(200px, 1fr));
   --animate-wobble: wobble 0.6s infinite ease-in-out;
 
+  /* 이디야 기본 블로 */
+  --color-ediya-blue-100: #A7D1E7;
+  --color-ediya-blue-200: #2C68AE;
+  --color-ediya-blue-300: #24388D;
+  /* 원형 그라디언트 변수 */
+  --ediya-blue: linear-gradient(-45deg, var(--color-ediya-blue-200), var(--color-ediya-blue-300));
+
+
   @keyframes wobble {
     0%, 100% {
         transform: translateX(0%) rotate(0deg);
