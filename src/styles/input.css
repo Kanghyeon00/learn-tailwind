@@ -14,10 +14,12 @@
   --lion: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.notice{
-  @apply flex border border-gray-500 bg-blue-950;
-  
-  > div{
-    @apply p-4 text-white w-[200px] relative;
+@layer components{
+  .notice{
+    @apply flex border-4 border-green-700 bg-blue-950;
+    
+    > div{
+      @apply p-4 text-white w-[200px] relative;
+    }
   }
 }
