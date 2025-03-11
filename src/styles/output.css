@@ -44,6 +44,7 @@
     --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-bold: 700;
     --radius-xl: 0.75rem;
+    --animate-spin: spin 1s linear infinite;
     --aspect-video: 16 / 9;
     --default-font-family: var(--font-sans);
     --default-font-feature-settings: var(--font-sans--font-feature-settings);
@@ -186,6 +187,7 @@
   embed,
   object {
     display: block;
+    vertical-align: middle;
   }
   img,
   video {
@@ -575,6 +577,13 @@
     outline-style: var(--tw-outline-style);
     outline-width: 2px;
   }
+  .hover\:animate-spin {
+    &:hover {
+      @media (hover: hover) {
+        animation: var(--animate-spin);
+      }
+    }
+  }
   .hover\:fill-red-500 {
     &:hover {
       @media (hover: hover) {
@@ -751,4 +760,9 @@
   syntax: "*";
   inherits: false;
   initial-value: solid;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
