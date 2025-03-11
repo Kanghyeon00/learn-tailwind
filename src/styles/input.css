@@ -12,4 +12,5 @@
   
   /* Index Layout을 위한 그리드 관련 변수 */
   --lion: repeat(auto-fit, minmax(200px, 1fr));
+  
 }
