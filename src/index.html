@@ -3,53 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>유틸리티 퍼스트 — Tailwind CSS</title>
-    <link rel="icon" href="./assets/favicon.svg" />
-    <link rel="stylesheet" href="./styles/output.css" />
+    <title>Tailwind CSS</title>
+    <link rel="icon" href="/assets/favicon.svg" />
+    <link rel="preload" as="font" href="/assets/font/woff2/PretendardVariable.woff2" />
+		<link rel="stylesheet" href="/styles/output.css" />
   </head>
-  <body>
-    <div class="text-center">
-      <h1 class="font-bold text-3xl py-10">Tailwind CSS</h1>
-      <ul
-        class="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 font-bold w-1/2 max-w-[800px] mx-auto"
-      >
-        <li class="bg-red-700 py-4">
-          <a href="./example-01.html">Example 01</a>
-        </li>
-        <li class="bg-red-600 py-4">
-          <a href="./example-02.html">Example 02</a>
-        </li>
-        <li class="bg-red-500 py-4">
-          <a href="./example-03.html">Example 03</a>
-        </li>
-        <li class="bg-red-400 py-4">
-          <a href="./example-04.html">Example 04</a>
-        </li>
-        <li class="bg-orange-600 py-4">
-          <a href="./example-05.html">Example 05</a>
-        </li>
-        <li class="bg-yellow-500 py-4">
-          <a href="./example-06.html">Example 06</a>
-        </li>
-        <li class="bg-yellow-400 py-4">
-          <a href="./example-07.html">Example 07</a>
-        </li>
-        <li class="bg-yellow-300 py-4">
-          <a href="./example-08.html">Example 08</a>
-        </li>
-        <li class="bg-green-700 py-4">
-          <a href="./example-09.html">Example 09</a>
-        </li>
-        <li class="bg-green-600 py-4">
-          <a href="./example-10.html">Example 10</a>
-        </li>
-        <li class="bg-green-500 py-4">
-          <a href="./example-11.html">Example 11</a>
-        </li>
-        <li class="bg-green-400 py-4">
-          <a href="./example-12.html">Example 12</a>
-        </li>
-      </ul>
-    </div>
+  <body class="">
+    <h1 class="text-2xl font-bold text-center my-4">Tailwind CSS</h1>
+    <ul class="grid grid-cols-(--lion) w-1/2 max-w-[800px] mx-auto">
+      <li class="bg-amber-100"><a class="block p-4 text-center" href="example-01.html">중앙 배치</a></li>
+      <li class="bg-amber-200"><a class="block p-4 text-center" href="example-02.html">Example 02</a></li>
+      <li class="bg-amber-300"><a class="block p-4 text-center" href="example-03.html">Example 03</a></li>
+      <li class="bg-amber-400"><a class="block p-4 text-center" href="example-04.html">Example 04</a></li>
+      <li class="bg-lime-100"><a class="block p-4 text-center" href="example-05.html">Example 05</a></li>
+      <li class="bg-lime-200"><a class="block p-4 text-center" href="example-06.html">Example 06</a></li>
+      <li class="bg-lime-300"><a class="block p-4 text-center" href="example-07.html">Example 07</a></li>
+      <li class="bg-lime-400"><a class="block p-4 text-center" href="example-08.html">Example 08</a></li>
+      <li class="bg-pink-100"><a class="block p-4 text-center" href="example-09.html">Example 09</a></li>
+      <li class="bg-pink-200"><a class="block p-4 text-center" href="example-10.html">Example 10</a></li>
+      <li class="bg-pink-300"><a class="block p-4 text-center" href="example-11.html">Example 11</a></li>
+      <li class="bg-pink-400"><a class="block p-4 text-center" href="example-12.html">Example 12</a></li>
+    </ul>
   </body>
 </html>
