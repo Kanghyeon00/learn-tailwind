@@ -1,28 +1,12 @@
 @import "tailwindcss";
 @theme {
+  
+  /* 기본 font-family 설정("Pretendard Variable") */
+  --font-*: initial;
+  --font-sans: "Pretendard Variable", sans-serif; 
+  --font-serif: "Noto Serif KR", serif; 
+  --font-suit: "SUIT Variable", sans-serif;
+  
+  /* Index Layout을 위한 그리드 관련 변수 */
   --lion: repeat(auto-fit, minmax(200px, 1fr));
 }
-
-
-/* .list{
-  display: grid;
-  grid-template-columns: 
-  repeat(auto-fit, minmax(200px, 1fr));
-} */
-
-/* .list{
-  display: grid;
-  grid-template-columns: 1fr;
-
-  @media (min-width: 640px){
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: 768px){
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  @media (min-width: 1024px){
-    grid-template-columns: repeat(4, 1fr);
-  }
-} */
