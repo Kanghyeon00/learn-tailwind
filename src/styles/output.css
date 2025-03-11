@@ -19,6 +19,7 @@
     --color-lime-300: oklch(0.897 0.196 126.665);
     --color-lime-400: oklch(0.841 0.238 128.85);
     --color-green-500: oklch(0.723 0.219 149.579);
+    --color-green-700: oklch(0.527 0.154 150.069);
     --color-sky-500: oklch(0.685 0.169 237.323);
     --color-blue-500: oklch(0.623 0.214 259.815);
     --color-blue-800: oklch(0.424 0.199 265.638);
@@ -547,6 +548,13 @@
     &:hover {
       @media (hover: hover) {
         animation: var(--animate-spin);
+      }
+    }
+  }
+  .hover\:fill-green-700 {
+    &:hover {
+      @media (hover: hover) {
+        fill: var(--color-green-700);
       }
     }
   }
